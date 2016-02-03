@@ -51,10 +51,12 @@ long
 native
 new
 null
+Number
 package
 private
 protected
 public
+require
 return
 short
 static
@@ -122,4 +124,19 @@ dir
 getTime
 hrtime
 log
+
+#KEYWORD=jQuery Methods
+$
+append
+bind
+change
+checked
+click
+collapse
+get
+post
+prop
+remove
+submit
+val
 #
