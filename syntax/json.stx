@@ -1,0 +1,61 @@
+#TITLE=JSON
+;
+; This is a syntax file for MS IE 5.5 based on the IE 5.0 syntax file by Stoyanski
+; IE 5.5 specifix stuff added by Welman Jordan
+; Windows Script Host syntax added by Welman Jordan
+; @date: 2005-1-11
+; @author: Stoyanski, Welman Jordan
+;
+; Notice: It is recommended to download the Editplus support
+; patch to work correctly with this file.
+;
+
+#DELIMITER=,()-+*%/="'~!&|<>?:;.
+#QUOTATION1="
+#QUOTATION2=
+#CONTINUE_QUOTE=
+#LINECOMMENT=//
+#LINECOMMENT2=
+#COMMENTON=: "
+#COMMENTOFF="
+#COMMENTON2=
+#COMMENTOFF2=
+#ESCAPE=\
+#CASE=y
+#PREFIX1=
+#PREFIX2=
+#PREFIX3=
+#PREFIX4=
+#PREFIX5=
+#SUFFIX1=
+#SUFFIX2=
+#SUFFIX3=
+#SUFFIX4=
+#SUFFIX5=
+#NUMBER_PATTERN=cpp
+
+#KEYWORD=Reserved words
+$
+@
+;Literals
+true
+false
+null
+;Keywords
+Date
+ISODate
+new
+NumberInt
+NumberLong
+ObjectId
+
+#KEYWORD=Square brackets
+[
+]
+[]
+
+#KEYWORD=Braces
+{
+}
+
+#
