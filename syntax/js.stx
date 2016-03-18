@@ -51,7 +51,7 @@ long
 native
 new
 null
-Number
+of
 package
 private
 protected
@@ -86,6 +86,7 @@ Button
 Checkbox
 Date
 document
+Error
 FileUpload
 Form
 forms
@@ -95,6 +96,7 @@ Hidden
 history
 Image
 images
+JSON
 Link
 links
 location
@@ -102,10 +104,12 @@ Math
 MimeType
 mimeTypes
 navigator
+Number
 options
 Password
 Plugin
 plugins
+Promise
 Radio
 Reset
 Select
@@ -116,14 +120,24 @@ Textarea
 window
 
 #KEYWORD=Node.js Modules
-process
 console
+global
+module
+process
 
 #KEYWORD=Node.js Methods
+debug
 dir
+exports
+filter
+forEach
+getDate
+getHours
 getTime
 hrtime
+length
 log
+split
 
 #KEYWORD=jQuery Methods
 $
