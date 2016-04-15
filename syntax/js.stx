@@ -126,6 +126,9 @@ module
 process
 
 #KEYWORD=Node.js Methods
+clearImmediate
+clearInterval
+clearTimeout
 debug
 dir
 exports
@@ -137,7 +140,12 @@ getTime
 hrtime
 length
 log
+ref
+setImmediate
+setInterval
+setTimeout
 split
+unref
 
 #KEYWORD=jQuery Methods
 $
