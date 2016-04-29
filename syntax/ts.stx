@@ -91,6 +91,7 @@ Applet
 applets
 Area
 Array
+Buffer
 Button
 Checkbox
 Code
@@ -142,6 +143,7 @@ copyWithin
 dir
 endsWith
 entries
+error
 every
 fill
 filter
@@ -214,6 +216,7 @@ some
 sort
 splice
 split
+stack
 startsWith
 substr
 substring
@@ -250,15 +253,22 @@ http
 module
 path
 process
+ReadStream
 request
 stylus
 util
+WriteStream
 
 #KEYWORD=Node.js Methods
+argv
+chdir
 clearImmediate
 clearInterval
 clearTimeout
+createReadStream
+createWriteStream
 debug
+exit
 exports
 hrtime
 ref

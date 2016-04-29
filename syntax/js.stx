@@ -17,6 +17,7 @@
 
 #KEYWORD=Reserved words
 abstract
+as
 boolean
 break
 byte
@@ -37,6 +38,7 @@ final
 finally
 float
 for
+from
 function
 goto
 if
@@ -70,6 +72,7 @@ transient
 true
 try
 typeof
+undefined
 var
 void
 while
@@ -82,6 +85,7 @@ Applet
 applets
 Area
 Array
+Buffer
 Button
 Checkbox
 Code
@@ -133,6 +137,7 @@ copyWithin
 dir
 endsWith
 entries
+error
 every
 fill
 filter
@@ -205,6 +210,7 @@ some
 sort
 splice
 split
+stack
 startsWith
 substr
 substring
@@ -241,11 +247,14 @@ http
 module
 path
 process
+ReadStream
 request
 stylus
 util
+WriteStream
 
 #KEYWORD=Node.js Methods
+chdir
 clearImmediate
 clearInterval
 clearTimeout
